@@ -5,21 +5,21 @@
 class Devx < Formula
   desc "Supercharged local dev environment — Podman + Cloudflare Tunnels + Tailscale in one CLI"
   homepage "https://github.com/VitruvianSoftware/devx"
-  version "0.50.0"
+  version "0.51.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/VitruvianSoftware/devx/releases/download/v0.50.0/devx_darwin_amd64.tar.gz"
-      sha256 "9e1e70b06e3b67b28180eae2d0a10cb0c6ce4ca0c054284106b2c331ed7a3b86"
+      url "https://github.com/VitruvianSoftware/devx/releases/download/v0.51.0/devx_darwin_amd64.tar.gz"
+      sha256 "531114059dbcbe19bf9ed9edfd4791698f72ced9eb89f1121adb30ee813162df"
 
       define_method(:install) do
         bin.install "devx"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/VitruvianSoftware/devx/releases/download/v0.50.0/devx_darwin_arm64.tar.gz"
-      sha256 "3b6c38a9b289e4d13d06977b7e66ac8bb82941547ba844d0edaf9f2beb52e1c2"
+      url "https://github.com/VitruvianSoftware/devx/releases/download/v0.51.0/devx_darwin_arm64.tar.gz"
+      sha256 "e31d892cf5d60822af52ac2840a4758e1714e817280aaf33b4c24b1e2192b9cd"
 
       define_method(:install) do
         bin.install "devx"
@@ -29,15 +29,15 @@ class Devx < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/VitruvianSoftware/devx/releases/download/v0.50.0/devx_linux_amd64.tar.gz"
-      sha256 "12f7570f943ef010604e625fcefbd7847d611c769f1837b316ec460002f844cf"
+      url "https://github.com/VitruvianSoftware/devx/releases/download/v0.51.0/devx_linux_amd64.tar.gz"
+      sha256 "e3b5a896a14617b69219c02bc0f637ee13502df6e29f5f244bd5c06c5186044b"
       define_method(:install) do
         bin.install "devx"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/VitruvianSoftware/devx/releases/download/v0.50.0/devx_linux_arm64.tar.gz"
-      sha256 "10967d1aee66c18a2f17a61d28aa284a599c525eb862b2455746f5b9d9c5a94f"
+      url "https://github.com/VitruvianSoftware/devx/releases/download/v0.51.0/devx_linux_arm64.tar.gz"
+      sha256 "2bb5b46693948cd09aa9745293e924526192004f8147896112fa618480f349fc"
       define_method(:install) do
         bin.install "devx"
       end
