@@ -5,21 +5,21 @@
 class Homelab < Formula
   desc "Declaratively provision and manage multi-node K8s homelab clusters on macOS"
   homepage "https://github.com/VitruvianSoftware/homelab"
-  version "1.0.3"
+  version "1.1.0"
   license "Apache-2.0"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/VitruvianSoftware/homelab/releases/download/v1.0.3/homelab_1.0.3_darwin_amd64.tar.gz"
-    sha256 "8a2537e67cb888d3b6c7179fdd7ec3212127b5ec071e48bf249c4706d1a60c80"
+    url "https://github.com/VitruvianSoftware/homelab/releases/download/v1.1.0/homelab_1.1.0_darwin_amd64.tar.gz"
+    sha256 "51cd68651872bb107586b263a0d5f701afc1ee57d3ecfc6624ce933264ebfa4f"
 
     define_method(:install) do
       bin.install "homelab"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/VitruvianSoftware/homelab/releases/download/v1.0.3/homelab_1.0.3_darwin_arm64.tar.gz"
-    sha256 "5a6ca250bdb6dffca786c6972d3bef526d04477cb8f8915df4d6bea00488d84a"
+    url "https://github.com/VitruvianSoftware/homelab/releases/download/v1.1.0/homelab_1.1.0_darwin_arm64.tar.gz"
+    sha256 "e4b376979cba801e03deb47851749e5f621552f6bf41f7606669beffe255a61a"
 
     define_method(:install) do
       bin.install "homelab"
