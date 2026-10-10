@@ -1,8 +1,8 @@
 cask "vitruvian" do
-  version "3.36.0"
-  sha256 "f5f45b76484f0ea0dbfe108ea6fe49a38fe31e96cd142c952568100a6d156f06"
+  version "3.37.0"
+  sha256 "8e24e20ac1e0d895a0b29b469779cbe9e7f311cb4193f041d84c9ea9819ab366"
 
-  url "https://github.com/VitruvianSoftware/vitruvian-core/releases/download/vitruvian-v3.36.0/Vitruvian-3.36.0-universal.dmg"
+  url "https://github.com/VitruvianSoftware/vitruvian-core/releases/download/vitruvian-v3.37.0/Vitruvian-3.37.0-universal.dmg"
   name "Vitruvian"
   desc "Desktop control hub for Vitruvian and AI coding sessions"
   homepage "https://github.com/VitruvianSoftware/vitruvian-core/tree/main/apps/desktop/vitruvian"
