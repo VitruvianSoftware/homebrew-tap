@@ -2,8 +2,8 @@
 class VitruvianTool < Formula
   desc "Write, check and try tools for the Vitruvian Mac app"
   homepage "https://vitruviansoftware.dev/tools/"
-  url "https://github.com/VitruvianSoftware/vitruvian-sdk/releases/download/v1.0.0/vitruvian-sdk-1.0.0.tar.gz"
-  sha256 "79951a87a2993d9555361a202825a2b19634f59b1c173f35900746b6e12f7902"
+  url "https://github.com/VitruvianSoftware/vitruvian-sdk/releases/download/v1.1.0/vitruvian-sdk-1.1.0.tar.gz"
+  sha256 "790cead5d036073015fdf0967831cec1d6afd2874c061dc8f36de31bdfcf01e0"
   license "MIT"
 
   depends_on macos: :sonoma
