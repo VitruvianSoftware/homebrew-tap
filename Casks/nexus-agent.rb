@@ -1,8 +1,8 @@
 cask "nexus-agent" do
-  version "1.25.0"
-  sha256 "e841692a28a36772a9f74fe7a7ae7a61e69e3ba7973b43afac67d39b96a7c636"
+  version "1.26.0"
+  sha256 "9d7d4c73f4e2a0c8f26f0d17e0904b8909a5961eec5617e81f7b199b58db3406"
 
-  url "https://github.com/VitruvianSoftware/nexus-agent/releases/download/v1.25.0/NexusAgent-1.25.0-universal.dmg"
+  url "https://github.com/VitruvianSoftware/nexus-agent/releases/download/v1.26.0/NexusAgent-1.26.0-universal.dmg"
   name "NexusAgent"
   desc "Advanced multi-provider agent GUI"
   homepage "https://github.com/VitruvianSoftware/nexus-agent"
