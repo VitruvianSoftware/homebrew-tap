@@ -1,8 +1,8 @@
 cask "home-speaker" do
-  version "1.40.0"
-  sha256 "90c60bd51fe034d3a138c16401cd04915881439f5276f1e5309b25a6c7a28eaa"
+  version "1.41.0"
+  sha256 "b9214d105004ee2b8d7ef597cafc345b362519ab93a07ed89175e4aeb34b672e"
 
-  url "https://github.com/VitruvianSoftware/vitruvian-core/releases/download/home-speaker-v1.40.0/HomeSpeaker-1.40.0-universal.dmg"
+  url "https://github.com/VitruvianSoftware/vitruvian-core/releases/download/home-speaker-v1.41.0/HomeSpeaker-1.41.0-universal.dmg"
   name "HomeSpeaker"
   desc "macOS menu bar app for speech notifications and smart speaker announcements"
   homepage "https://github.com/VitruvianSoftware/vitruvian-core/tree/main/apps/desktop/home-speaker"
