@@ -1,8 +1,8 @@
 cask "vitruvian-speaker" do
-  version "1.45.1"
-  sha256 "954f89ef29a92049060bd2ae62de48b878b886aa4f058e17cdc0e2ecbb6861d1"
+  version "1.45.2"
+  sha256 "7012ca1941c69230077b71955e249adc5b4769fb5b79405e06eb548c7190e803"
 
-  url "https://github.com/VitruvianSoftware/vitruvian-core/releases/download/vitruvian-speaker-v1.45.1/VitruvianSpeaker-1.45.1-universal.dmg"
+  url "https://github.com/VitruvianSoftware/vitruvian-core/releases/download/vitruvian-speaker-v1.45.2/VitruvianSpeaker-1.45.2-universal.dmg"
   name "Vitruvian Speaker"
   desc "macOS menu bar app for speech notifications and smart speaker announcements"
   homepage "https://github.com/VitruvianSoftware/vitruvian-core/tree/main/apps/desktop/vitruvian-speaker"
