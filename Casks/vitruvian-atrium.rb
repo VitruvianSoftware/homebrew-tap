@@ -1,8 +1,8 @@
 cask "vitruvian-atrium" do
-  version "3.103.0"
-  sha256 "670d5f8d4f6c9a25125be1d67ce878dc003e824c9dd3753c32f3d27d6fd2a296"
+  version "3.104.0"
+  sha256 "0f78f80d2f2d17dad2acbc373543af7dff89fff2daa0a37bbc8d4dc7975cb4f2"
 
-  url "https://github.com/VitruvianSoftware/vitruvian-core/releases/download/vitruvian-atrium-v3.103.0/VitruvianAtrium-3.103.0-universal.dmg"
+  url "https://github.com/VitruvianSoftware/vitruvian-core/releases/download/vitruvian-atrium-v3.104.0/VitruvianAtrium-3.104.0-universal.dmg"
   name "Vitruvian Atrium"
   desc "Desktop control hub for Vitruvian Atrium and AI coding sessions"
   homepage "https://github.com/VitruvianSoftware/vitruvian-core/tree/main/apps/desktop/vitruvian-atrium"
