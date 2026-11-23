@@ -1,8 +1,8 @@
 cask "vitruvian-courier" do
-  version "0.3.36"
-  sha256 "761188b641ba9af81a6e4e06b9b70e7248030a15e0cfb0fcddbd1caf47178d83"
+  version "0.3.37"
+  sha256 "786cb3beeb8a5a6318d959deafa82057f44e4f58ce673a9817cbc1c3e6fdf346"
 
-  url "https://github.com/VitruvianSoftware/vitruvian-core/releases/download/vitruvian-courier-v0.3.36/VitruvianCourier-0.3.36-universal.dmg"
+  url "https://github.com/VitruvianSoftware/vitruvian-core/releases/download/vitruvian-courier-v0.3.37/VitruvianCourier-0.3.37-universal.dmg"
   name "Vitruvian Courier"
   desc "Every chat app in one inbox, on this Mac"
   homepage "https://github.com/VitruvianSoftware/vitruvian-core/tree/main/apps/desktop/vitruvian-courier"
