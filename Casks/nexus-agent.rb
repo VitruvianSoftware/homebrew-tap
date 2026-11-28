@@ -1,8 +1,8 @@
 cask "nexus-agent" do
-  version "1.52.0"
-  sha256 "5768cee726a355b3877d6a123b77e9b5d2fae28b512beeea72914d65616102ea"
+  version "1.52.1"
+  sha256 "d822234050d49d5b08358c3680f0fcd7e6642f3677e2101f775e1f51b6b24915"
 
-  url "https://github.com/VitruvianSoftware/vitruvian-code/releases/download/v1.52.0/VitruvianCode-1.52.0-macos.dmg"
+  url "https://github.com/VitruvianSoftware/vitruvian-code/releases/download/v1.52.1/VitruvianCode-1.52.1-macos.dmg"
   name "Vitruvian Code"
   desc "Advanced multi-provider agent GUI"
   homepage "https://github.com/VitruvianSoftware/vitruvian-code"
